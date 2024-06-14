@@ -1,2 +1,3 @@
+pub mod app;
 pub mod ssh;
-pub mod ui;
+pub mod tui;
