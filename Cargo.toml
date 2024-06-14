@@ -1,5 +1,5 @@
 [package]
-name = "sshui"
+name = "terminal.shop"
 version = "0.1.0"
 edition = "2021"
 
@@ -13,3 +13,12 @@ ratatui = "0.26.3"
 russh = "0.43.0"
 russh-keys = "0.43.0"
 tokio = "1.38.0"
+
+
+[[bin]]
+name = "terminal-shop-local"
+path = "bin/local.rs"
+
+[[bin]]
+name = "terminal-shop-server"
+path = "bin/server.rs"
