@@ -1,0 +1,15 @@
+[package]
+name = "sshui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+async-trait = "0.1.80"
+async-traits = "0.0.0"
+crossterm = "0.27.0"
+futures = "0.3.30"
+ratatui = "0.26.3"
+russh = "0.43.0"
+russh-keys = "0.43.0"
+tokio = "1.38.0"
